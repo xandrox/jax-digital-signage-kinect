@@ -1266,7 +1266,7 @@ Vertkal}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{-25, 292}, {122, 14}}</string>
+			<string>{{-27, 305.80514526367188}, {126, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1314,7 +1314,7 @@ Vertkal}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs24 \cf0 Abstand in Millimeter}</string>
+\f0\b\fs24 \cf0 Messung in Millimeter}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -3659,7 +3659,7 @@ Vertkal}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-04-18 12:57:30 +0000</string>
+	<string>2013-04-21 10:02:31 +0000</string>
 	<key>Modifier</key>
 	<string>Sandro Sonntag</string>
 	<key>NotesVisible</key>
@@ -3740,7 +3740,7 @@ Vertkal}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{362, 106}, {1013, 922}}</string>
+		<string>{{365, 293}, {1013, 735}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -3754,7 +3754,7 @@ Vertkal}</string>
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-159, 0}, {878, 783}}</string>
+		<string>{{-159, 0}, {878, 596}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>

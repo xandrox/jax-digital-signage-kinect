@@ -359,6 +359,7 @@
                 canvas.appendChild( el );
             });
             root.appendChild(canvas);
+
             
             // set initial styles
             document.documentElement.style.height = "100%";
@@ -375,6 +376,7 @@
                 transformStyle: "preserve-3d"
             };
             
+
             css(root, rootStyles);
             css(root, {
                 top: "50%",
@@ -382,10 +384,11 @@
                 transform: perspective( config.perspective/windowScale ) + scale( windowScale )
             });
             css(canvas, rootStyles);
-            
+
             body.classList.remove("impress-disabled");
             body.classList.add("impress-enabled");
             
+
             // get and init steps
             steps = $$(".step", root);
             steps.forEach( initStep );
