@@ -9,8 +9,6 @@
     <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
     <meta name="author" content="Bartek Szopka" />
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
-
     <!--
         
         Impress.js doesn't depend on any external stylesheet. Script adds all styles it needs for
@@ -154,21 +152,15 @@
     </div>
     
     <div id="cem-text" class="invisible step def" data-x="-6000" data-y="-4000" data-scale="3" data-rotate-x="-20" data-rotate-y="30" data-rotate-z="5">
-      <p>
         Schaffen Sie ein völlig neues Besuchserlebnis – unabhängig ob Sie Ihre Kunden im Internet, in den sozialen Netzwerken oder am POS besuchen. 
-      </p>
     </div>
    <div id="cem-text-2" class="invisible step def" data-x="-6000" data-y="-4000" data-scale="3" data-rotate-x="-20" data-rotate-y="30" data-rotate-z="5">
-      <p>
         Nutzen Sie Cross-Mediale Kampagnen zur effektiven und bedarfsgerechten Kundenansprache.         
-      </p>
     </div>
     
-    <div id="solution" class="step def" data-x="6000" data-y="-4500" data-scale="2">
-         <h1>
-           Unser Lösungsangebot – <br/>
-           Ihr Nutzen
-         </h1>
+    <div id="solution" class="step def frame" data-x="6000" data-y="-4500" data-scale="2">
+           <b>Unser Lösungsangebot – <br/>
+           Ihr Nutzen</b>
      </div>
      
      <div id="elemente-loesung" class="step slide img-slide"  data-x="4000" data-y="-2500" data-scale="2" data-rotate-z="225">
@@ -318,37 +310,50 @@
         <img src="images/AUDIENCE_web.jpeg"/>
     </div>
     
-    <div id="kinect-usecases" class="step" data-x="-3500" data-y="2000" data-scale="2" data-rotate-z="45">
-      Die Usecases sind endlos!
-    </div>
-    
     <div id="digitales-schaufenster-3" class="step" data-x="-3000" data-y="4500" data-scale="2" data-rotate-z="90">
         Plus an Information auch ausserhalb der &Ouml;ffnungszeiten
         <img src="images/schaufenster.jpeg"/>
     </div>
     
     <div id="kinect-subway" class="step"  data-x="-4000" data-y="6500" data-scale="2" data-rotate-z="135">
-        Beste Wirkung in Wartezohnen
+        Besonders Wirkungvoll in Wartezohnen
         <img src="images/slide-alt-1.jpeg"/>
     </div>
     
     <div id="kinect-subway-2" class="invisible step" data-x="-4000" data-y="6500" data-scale="2" data-rotate-z="135">
-        &nbsp;
+        &nbsp;<br/>
+        <br/>
         <img src="images/slide-alt-3.jpeg"/>
     </div>
     
-    <div id="kinect-shopping-insights" class="step" data-x="-6000" data-y="7500" data-scale="2" data-rotate-z="180">
-        TODO Kinect Shopping insights
-        <img src="images/slide-alt-3.jpeg"/>
+    <div id="kinect-shopperception" class="step" data-x="-6000" data-y="7500" data-scale="2" data-rotate-z="180">
+        <center>Analyse des Einkaufsverhalts *</center>
+        <center><img src="images/shopperception1.jpeg" height="600px"/></center>
+        <p class="footnote">* Shopperception</p>
+    </div>
+    
+    <div id="kinect-shopperception-2" class="step invisible" data-x="-6000" data-y="7500" data-scale="2" data-rotate-z="180">
+        <center>Analyse des Einkaufsverhalts *</center>
+        <center><img src="images/shopperception2.jpeg" height="600px"/></center>
+        <p class="footnote">* Shopperception</p>
+    </div>
+    
+    <div id="kinect-shopperception-3" class="step invisible" data-x="-6000" data-y="7500" data-scale="2" data-rotate-z="180">
+        <center>Analyse des Einkaufsverhalts *</center>
+        <center><img src="images/shopperception3.jpeg" height="600px"/></center>
+        <p class="footnote">* Shopperception</p>
     </div>
     
     <div id="kinect-hand" class="step"  data-x="-8000" data-y="6500" data-scale="2" data-rotate-z="225">
-        TODO Kinect Hand Movie
-        <img src="images/slide-alt-3.jpeg"/>
+         Eine Vielzahl an Forchungsprojekten besch&auml;ftigt sich mit Kinect Technologien
+         <video width="860" controls>
+            <source src="images/Handtracking.mov">
+            Your browser does not support the video tag.
+        </video>
     </div>
     
     <div id="kinect-touch-projektor" class="step" data-x="-9000" data-y="4500" data-scale="2" data-rotate-z="270">
-        Touch Projektoren auf Basis von Kinect
+        Touch-Projektoren auf Basis von Kinect
         <img src="images/kinect-touch-projektor-1.png" width="860px"/>
     </div>
     
@@ -456,8 +461,7 @@
     </div>
     
     <div id="kinect-ms-sdk-alternative" class="step" data-x="5200" data-y="3200" data-scale="2"  data-rotate-z="-45">
-        Alternative <br/> 
-        <img src="images/openni.png"/>
+        Alternative: <img src="images/openni.png" style="vertical-align:middle;"/>
     </div>
     
     <div id="kinect-ms-sdk-2" class="step" data-x="4500" data-y="4000" data-scale="2"  data-rotate-z="45">
@@ -495,7 +499,7 @@
       , das Browser-Plugin, dass Kinect-Events in den Browser sendet
     </div>
     
-    <div id="kinect-erkennung-user-tracking" class="step" data-x="7000" data-y="7000" data-scale="2"  data-rotate-z="45">
+    <div id="kinect-erkennung-user-tracking" class="step enable-kinect" data-x="7000" data-y="7000" data-scale="2"  data-rotate-z="45">
         <h1>User Tracking unterscheidet in "found" und "engaded" Users</h1>
         
         <p>
@@ -575,27 +579,27 @@
 </pre>
   </div>
     
-    <div id="kinect-erkennung-skelet" class="step" data-x="8800" data-y="4800" data-scale="2"  data-rotate-z="225">
+    <div id="kinect-erkennung-skelet" class="step" data-x="9000" data-y="4600" data-scale="2"  data-rotate-z="225">
         Skelet mit 24 Joint Poins
         <img src="images/skelet.png" class="frame" width="800"/>
     </div>  
     
-    <div id="kinect-erkennung-skelet-tracking-x-y" class="step liveskeleton" data-x="10000" data-y="3000" data-scale="2">
+    <div id="kinect-erkennung-skelet-tracking-x-y" class="step liveskeleton enable-kinect" data-x="10000" data-y="3000" data-scale="2">
       <!-- data-x="18000" data-y="30000" data-z="0" data-rotate-z="0" data-scale="2" -->
         <h1>It's 3D !</h1>
       	<canvas id="userTrackerFront" width="600" height="600"></canvas>
     </div>
-    <div id="kinect-erkennung-skelet-tracking-y-z" class="step liveskeleton" data-x="9400" data-y="3000" data-z="600" data-scale="2" data-rotate-y="90"/>
+    <div id="kinect-erkennung-skelet-tracking-y-z" class="step liveskeleton enable-kinect" data-x="9400" data-y="3000" data-z="600" data-scale="2" data-rotate-y="90"/>
         <h1>Y-Z</h1>
 		    <canvas id="userTrackerSide" width="600" height="600"></canvas>
     </div>
-    <div id="kinect-erkennung-skelet-tracking-x-z" class="step liveskeleton" data-x="10000" data-y="3600" data-z="600" data-scale="2" data-rotate-x="90">
+    <div id="kinect-erkennung-skelet-tracking-x-z" class="step liveskeleton enable-kinect" data-x="10000" data-y="3600" data-z="600" data-scale="2" data-rotate-x="90">
         <h1>X-Z</h1>
 		    <canvas id="userTrackerTop" width="600" height="600"></canvas>
     </div>
     
-    <div id="kinect-erkennung-hsd" class="step" data-x="12000" data-y="4500" data-scale="2" data-rotate-z="315">
-      Mit dem HandSessionDetector Pr&auml;sentationen steuern
+    <div id="kinect-erkennung-hsd" class="step enable-kinect" data-x="12000" data-y="4500" data-scale="2" data-rotate-z="315">
+      Mit dem "HandSessionDetector" <b>diese</b> Pr&auml;sentationen steuern
     <pre class="prettyprint">
   var api = impress();
   
@@ -674,16 +678,16 @@
     Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
     
 -->
+
 <script src="js/prettify.js"></script>
 <script src="js/impress.js"></script>
-<script src="js/zig.js"></script>
-<script src="js/3dview.js"></script>
-<script src="js/usercounter.js"></script>
-<script src="js/kinect-control.js"></script>
 <script>
 	impress().init();
 	window.addEventListener('load', function(){prettyPrint();}, false);
 	window.addEventListener('impress:stepenter', function(s) {
+	  if (!window.zig && s.target.classList.contains("enable-kinect")) {
+	    loadZigfu();
+	  }
   	handleVideo(s.target, function(v){
   	  v.play();
   	});
@@ -702,6 +706,23 @@
   	    f(videos[i]);
     	}
 	  }
+  }
+
+  function loadZigfu(){
+    loadScript("js/zig.js", function(){
+      zig.embed();
+      loadScript("js/3dview.js");
+      loadScript("js/usercounter.js");
+      loadScript("js/kinect-control.js");
+    });
+      
+  }
+  
+  function loadScript(path, callback){
+    var s = document.createElement("script");
+    s.src = path;
+    s.onload=callback;
+    document.head.appendChild(s);
   }
 </script>
 

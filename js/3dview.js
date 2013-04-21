@@ -1,4 +1,4 @@
-    	function load() {
+    	(function() {
     	
     		function Radar(canvas, coords, rangeInMeters, xoffset, yoffset) {
     			var self = {};
@@ -71,5 +71,4 @@
     			console.log('User disengaged: ' + user.id);
     		});
     		zig.addListener(engager);
-    	}
-    	window.addEventListener('load', load, false);
+    	})();

@@ -1,4 +1,4 @@
-function loadCounter() {
+(function() {
 	var usersFound = document.getElementById("usersFound");
 	var usersEngaded = document.getElementById("usersEngaded");
 
@@ -32,5 +32,4 @@ function loadCounter() {
 		usersEngaded.innerText = usersEngadedCount;
 	});
 	zig.addListener(engager);
-}
-window.addEventListener('load', loadCounter, false);
+})();

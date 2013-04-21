@@ -1,9 +1,9 @@
-window.addEventListener('load', function() {
+(function() {
 	var api = impress();
 	
-	var engager = zig.EngageUsersWithSkeleton(6);
+	var engager = zig.EngageUsersWithSkeleton(2);
 	engager.addEventListener('userengaged',	function(user) {
-		console.log("user engaged");
+		console.log("user engaged FFFF");
 
 		var hsd = zig.HandSessionDetector();
 		user.addListener(hsd);
@@ -31,4 +31,4 @@ window.addEventListener('load', function() {
 		
 	});
 	zig.addListener(engager);
-}, false);
+})();

@@ -194,7 +194,7 @@ a:focus {
     transition:         opacity 1s;
 }
 
-.impress-enabled .step.futureXXX {
+.impress-enabled .step.future {
    opacity: 0.0;
 }
 
@@ -278,8 +278,9 @@ a:focus {
     transform:         translateZ(50px);
 }
 
-#title .footnote {
+.footnote {
     font-size: 32px;
+	text-align: right;
 }
 
 /*
