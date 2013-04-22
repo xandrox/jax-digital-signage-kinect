@@ -195,7 +195,7 @@ a:focus {
 }
 
 .impress-enabled .step.future {
-   opacity: 0.0;
+   sopacity: 0.0;
 }
 
 .impress-enabled .step.active { opacity: 1 }
@@ -888,10 +888,16 @@ li::before {
 	background-size: 120%;
 }
 
-#bankfiliale-heute {
+#bankfiliale-heute-2 {
 	background-repeat: no-repeat;
 	background-image: url(../images/bankfiliale-heute.png);
 	background-size: 120%;
+}
+
+#bankfiliale-heute {
+	background-repeat: no-repeat;
+	background-image: url(../images/commerzbank.png);
+	background-size: 120%;	
 }
 
 #bewegte-bilder {
@@ -900,7 +906,7 @@ li::before {
 	background-size: 120%;
 }
 
-#elemente-loesung {
+.elemente-loesung {
 	background-repeat: no-repeat;
 	background-image: url(../images/elemente-loesung.png);
 	background-size: 100%;
